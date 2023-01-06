@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.btn-primary{
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px 19px 36px;
+    height: 64px;
+    border-radius: 5px;
+}
+
+.descriptions{
+    color: #444343;
+    margin-bottom: 32px;
+}
+
+/* header styles */
+
+.header{
+    background-color: #FFFFFF;
+    background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner{
+    padding: 216px 230px 167px 845px;
+    text-align: right;
+}
+
+.banner-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 24px;
+}
+
+
+.banner .btn-primary{
+    color: #FFFFFF;
+    background: #FD6E0A;
+}
+
+/* Failure Section styles */
+
+.my-failure{
+    display: flex;
+    gap: 87px;
+    margin-top: 125px;
+    margin-left: 206px;
+    margin-bottom: 130px;
+}
+
+.failure-texts{
+    margin-top: 250px;
+    padding-right: 450px;
+}
+
+.section-title{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.failure-texts .descriptions{
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.failure-texts .selected-points{
+    color: #444343;
+    margin-bottom: 8px;
+}
+
+/* My Plan section */
+
+.plan-section{
+    margin-bottom: 125px;
+}
+.plan-section .section-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.plan-name{
+    font-weight: 700;
+font-size: 30px;
+
+}
+.plan-types{
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    text-align: center;
+}
+
+.plan-types .descriptions{
+    font-weight: 500;
+font-size: 25px;
+color: #737272;
+}
+
+/* Positive-mindset section */
+
+.positive-mindset-section{
+    background-color: #FFFFFF;
+    /* background-image: url("../images/watch.png"), url("../images/gradient3.png"); */
+    background-image:  linear-gradient(#F15B22, #f15b2200), url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: center;
+    border-radius: 8px;
+    margin: 0px 280px;
+    margin-bottom: 130px;
+}
+
+.positive-mindset{
+ padding: 60px 80px;
+}
+
+.positive-mindset .section-title{
+    padding-right: 400px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+}
+.positive-mindset-section .btn-primary{
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 24px;
+}
+
+/* Footer */
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+}
+
+.future-info{
+    padding: 130px 0px 130px 230px;
+}
+.subscribe-info{
+    padding: 130px 229px 243px 200px
+}
