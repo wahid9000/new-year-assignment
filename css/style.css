@@ -49,14 +49,13 @@
 .my-failure{
     display: flex;
     gap: 87px;
-    margin-top: 125px;
-    margin-left: 206px;
-    margin-bottom: 130px;
+    margin: 125px 0px 130px 206px;
 }
 
 .failure-texts{
     margin-top: 250px;
-    padding-right: 450px;
+    padding-right: 400px;
+    text-align: left;
 }
 
 .section-title{
