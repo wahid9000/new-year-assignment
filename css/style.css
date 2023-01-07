@@ -85,7 +85,9 @@
 }
 .plan-name{
     font-weight: 700;
-font-size: 30px;
+    font-size: 30px;
+    margin-bottom: 16px;
+    margin-top: 24px;
 
 }
 .plan-types{
@@ -148,7 +150,7 @@ color: #737272;
 }
 
 .meet-my-instructor .descriptions{
-    margin-top: 20px;
+    margin-top: 16px;
 }
 
 /*------ Footer -------*/
@@ -163,6 +165,10 @@ color: #737272;
 .footer .future-info{
     margin: 130px 230px 130px 230px;
     color: #FFFFFF
+}
+
+.footer .future-info a{
+    padding-right: 17px;
 }
 
 .footer .future-info .description{
