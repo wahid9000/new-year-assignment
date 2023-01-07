@@ -141,6 +141,7 @@ color: #737272;
 .meet-my-instructor-section img{
     border-radius: 50%;
     margin-top: 20px;
+    margin-bottom: 16px;
 }
 .meet-my-instructor{
     text-align: center;
@@ -183,7 +184,13 @@ color: #737272;
     height: 64px;
     background-color: black;
     color: white;
-    border-radius: 5px;   
+    border-radius: 5px;  
+    border-color: #FFFFFF; 
+}
+.footer .subscribe-info ::placeholder{
+    color: #F3F3F3;
+    font-size: 18px;
+    padding-left: 20px;
 }
 
 .footer .subscribe-info .section-title{
