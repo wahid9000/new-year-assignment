@@ -17,11 +17,11 @@
     margin-bottom: 32px;
 }
 
-/* header styles */
+/*---------- header styles------------- */
 
 .header{
     background-color: #FFFFFF;
-    background-image: url('../images/banner/banner2.png');
+    background-image: url('./../images/banner/banner2.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -44,7 +44,7 @@
     background: #FD6E0A;
 }
 
-/* Failure Section styles */
+/* ------Failure Section styles---------- */
 
 .my-failure{
     display: flex;
@@ -74,7 +74,7 @@
     margin-bottom: 8px;
 }
 
-/* My Plan section */
+/* --------My Plan section------------ */
 
 .plan-section{
     margin-bottom: 125px;
@@ -101,12 +101,11 @@ font-size: 25px;
 color: #737272;
 }
 
-/* Positive-mindset section */
+/* ------Positive-mindset section-------- */
 
 .positive-mindset-section{
     background-color: #FFFFFF;
-    /* background-image: url("../images/watch.png"), url("../images/gradient3.png"); */
-    background-image:  linear-gradient(#F15B22, #f15b2200), url("../images/watch.png");
+    background-image:  linear-gradient(to right,#F15B22, #f15b2200), url("./../images/watch.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: center;
@@ -134,17 +133,62 @@ color: #737272;
     margin-top: 24px;
 }
 
-/* Footer */
+/* ------Meet my instructor section--------- */
+
+.meet-my-instructor{
+    margin-bottom: 130px;
+}
+.meet-my-instructor-section img{
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.meet-my-instructor{
+    text-align: center;
+}
+
+.meet-my-instructor .descriptions{
+    margin-top: 20px;
+}
+
+/*------ Footer -------*/
 
 .footer{
     display: flex;
     justify-content: space-around;
     gap: 200px;
+    background-color: black;
 }
 
-.future-info{
-    padding: 130px 0px 130px 230px;
+.footer .future-info{
+    margin: 130px 230px 130px 230px;
+    color: #FFFFFF
 }
-.subscribe-info{
-    padding: 130px 229px 243px 200px
+
+.footer .future-info .description{
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.footer .future-info .phone{
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.footer .subscribe-info{
+    padding: 130px 229px 243px 0px;
+    color: #FFFFFF;
+}
+
+.footer .subscribe-info input[type="email"]{
+    width: 325px;
+    height: 64px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;   
+}
+
+.footer .subscribe-info .section-title{
+    margin-bottom: 30px;
+}
+.footer .subscribe-info .btn-primary{
+    color: #FD6E0A;
 }
